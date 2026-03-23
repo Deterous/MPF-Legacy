@@ -12,14 +12,14 @@ While it is suggested that users on legacy version of Windows upgrade their oper
 This repo [provides builds](https://github.com/Deterous/MPF-Legacy/releases) from older .NET Frameworks to support legacy Windows operating systems, including 32bit Windows. Refer to the following table for what build to use for your system, and the .NET Framework dependency to ensure you have installed to get MPF working.
 | Operating System              | Build to use                  | .NET Framework Requirement                                                               |
 | ----------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------- |
-| Windows XP SP3[^1] (32bit)    | MPF-Legacy_*_net40_win32.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
-| Windows XP SP3[^1] (64bit)    | MPF-Legacy_*_net40_win64.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
-| Windows Vista SP2[^2] (32bit) | MPF-Legacy_*_net40_win32.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
-| Windows Vista SP2[^2] (64bit) | MPF-Legacy_*_net40_win64.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
-| Windows 7 SP1[^3] (32bit)     | MPF-Legacy_*_net48_win32.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
-| Windows 7 SP1[^3] (64bit)     | MPF-Legacy_*_net48_win64.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
-| Windows 8.1[^4] (32bit)       | MPF-Legacy_*_net48_win32.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
-| Windows 8.1[^4] (64bit)       | MPF-Legacy_*_net48_win64.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
+| Windows XP SP3[^1] (32bit)    | MPF-Legacy_*_net40_win-x86.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
+| Windows XP SP3[^1] (64bit)    | MPF-Legacy_*_net40_win-x64.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
+| Windows Vista SP2[^2] (32bit) | MPF-Legacy_*_net40_win-x86.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
+| Windows Vista SP2[^2] (64bit) | MPF-Legacy_*_net40_win-x64.zip  | [.NET Framework 4.0](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net40) |
+| Windows 7 SP1[^3] (32bit)     | MPF-Legacy_*_net48_win-x86.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
+| Windows 7 SP1[^3] (64bit)     | MPF-Legacy_*_net48_win-x64.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
+| Windows 8.1[^4] (32bit)       | MPF-Legacy_*_net48_win-x86.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
+| Windows 8.1[^4] (64bit)       | MPF-Legacy_*_net48_win-x64.zip  | [.NET Framework 4.8](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) |
 
 [^1]: Windows XP without SP3 may not work with net40 builds, please upgrade to SP3
 [^2]: Windows Vista without SP2 should still work with net40 builds
