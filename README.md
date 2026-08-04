@@ -7,6 +7,8 @@ While it is suggested that users on legacy version of Windows upgrade their oper
 	[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\StrongName\Verification\*,31bf3856ad364e35]
 ```
 
+For internet access (such as finding disc matches on redump.info) you will also need to [enable TLS 1.2](https://mycloudtree.co.uk/knowledgebase/19/Enabling-TLS1.2-on-Windows-7.html).
+
 ## MPF Legacy Builds
 
 This repo [provides builds](https://github.com/Deterous/MPF-Legacy/releases) from older .NET Frameworks to support legacy Windows operating systems, including 32bit Windows. Refer to the following table for what build to use for your system, and the .NET Framework dependency to ensure you have installed to get MPF working.
